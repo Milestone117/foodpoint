@@ -1,0 +1,13 @@
+    color {
+        --china-rose: #A54A69;
+        --egg-shell: #F5E6D7;
+        --dark-lighten: #F2f5ff;
+        --red-card: #A62121;
+        --blue-card: #4bb7e6;
+        --tuscany: #C5A290;
+        --burger: #F7ca77;
+        --burger-fade: #Feefd8;
+        --burger-yellow: #C89b15;
+        --burger1: #F9cb7e;
+        --burger2: #F5c771;
+    }

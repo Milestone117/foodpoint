@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodPoint</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="assets/logo.png" alt="">
+        </div>
+        <nav class="navigation">
+            <a href="#"><span1>home</span1><span class="header-icon"><i class='bx bxs-home-smile'></i></span></a>
+            <a href="#"><span1>about</span1><span class="header-icon"><i class='bx bxs-info-circle'></i></span></a>
+            <a href="#"><span1>menu</span1><span class="header-icon"><i class='bx bxs-food-menu'></i></span></a>
+            <a href="#"><span1>contacts</span1><span class="header-icon"><i class='bx bxs-contact'></i></span></a>
+            <i class='bx bxs-cart icon-cart'><span2>0</span2></i>
+            <button class="btnLogin-popup"><span1>login</span1><span class="header-icon"><i class='bx bxs-log-out'></i></span></button>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <span class="icon-close">
+            <i class='bx bx-x'></i>
+        </span>
+
+        <!-- Login Form -->
+        <div class="form-box login">
+            <h2>login</h2>
+            <form id="loginForm">
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-envelope'></i></span>
+                    <input id="loginEmail" type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-lock'></i></span>
+                    <input id="loginPassword" type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox"> Remember me</label>
+                    <a href="#q">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="login-register">
+                    <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+                </div>
+            </form>
+        </div>
+
+        <!-- Registration Form -->
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form id="registerForm">
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-user'></i></span>
+                    <input id="registerUsername" type="text" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-envelope'></i></span>
+                    <input id="registerEmail" type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-lock'></i></span>
+                    <input id="registerPassword" type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox"> I agree to the terms & conditions</label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="login-register">
+                    <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="slides">
+        <div class="slider">
+            <div class="title">
+                Food Hut!
+            </div>
+            <div class="images">
+                <div class="item" style="--i: 1">
+                    <img src="assets/1.PNG">
+                </div>
+                <div class="item" style="--i: 2">
+                    <img src="assets/2.PNG">
+                </div>
+                <div class="item" style="--i: 3">
+                    <img src="assets/3.PNG">
+                </div>
+                <div class="item" style="--i: 4">
+                    <img src="assets/4.PNG">
+                </div>
+                <div class="item" style="--i: 5">
+                    <img src="assets/5.PNG">
+                </div>
+                <div class="item" style="--i: 6">
+                    <img src="assets/6.PNG">
+                </div>
+            </div>
+            <div class="content">
+                <div class="item active">
+                    <h1>PRODUCT NAME 1</h1>
+                    <div class="des">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit expedita tenetur consectetur.
+                    </div>
+                    <button id="order">Order Now</button>
+                </div>
+                <div class="item">
+                    <h1>PRODUCT NAME 2</h1>
+                    <div class="des">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit expedita tenetur consectetur.
+                    </div>
+                    <button id="order">Order Now</button>
+                </div>
+                <div class="item">
+                    <h1>PRODUCT NAME 3</h1>
+                    <div class="des">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit expedita tenetur consectetur.
+                    </div>
+                    <button id="order">Order Now</button>
+                </div>
+                <div class="item">
+                    <h1>PRODUCT NAME 4</h1>
+                    <div class="des">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit expedita tenetur consectetur.
+                    </div>
+                    <button id="order">Order Now</button>
+                </div>
+                <div class="item">
+                    <h1>PRODUCT NAME 5</h1>
+                    <div class="des">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit expedita tenetur consectetur.
+                    </div>
+                    <button id="order">Order Now</button>
+                </div>
+                <div class="item">
+                    <h1>PRODUCT NAME 6</h1>
+                    <div class="des">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit expedita tenetur consectetur.
+                    </div>
+                    <button id="order">Order Now</button>
+                </div>
+            </div>
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+    </div>
+
+    <div id="customAlert" class="alert">
+        <div class="alert-content">
+            <span id="alertMessage">This is a message</span>
+            <button id="alertClose" class="close-btn">OK</button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

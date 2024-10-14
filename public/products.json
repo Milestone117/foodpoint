@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name":" HEAVY MEAL",
+        "price": 3,
+        "image": "assets/1.PNG"
+    },
+    {
+        "id": 2,
+        "name":" SWEET CHICKEN",
+        "price": 3,
+        "image": "assets/2.PNG"
+    },
+    {
+        "id": 3,
+        "name":" SALAD",
+        "price": 2,
+        "image": "assets/3.PNG"
+    },
+    {
+        "id": 4,
+        "name":" HONEY SOUP",
+        "price": 5,
+        "image": "assets/4.PNG"
+    },
+    {
+        "id": 5,
+        "name":" TOTAL VEG DISH",
+        "price": 2.5,
+        "image": "assets/5.PNG"
+    },
+    {
+        "id": 6,
+        "name":" MARGARITHA PIZZA",
+        "price": 1.5,
+        "image": "assets/6.PNG"
+    },
+    {
+        "id": 1,
+        "name":" HEAVY MEAL",
+        "price": 3,
+        "image": "assets/1.PNG"
+    },
+    {
+        "id": 8,
+        "name":" SWEET CHICKEN",
+        "price": 3,
+        "image": "assets/2.PNG"
+    },
+    {
+        "id": 9,
+        "name":" SALAD",
+        "price": 2,
+        "image": "assets/3.PNG"
+    },
+    {
+        "id": 10,
+        "name":" HONEY SOUP",
+        "price": 5,
+        "image": "assets/4.PNG"
+    },
+    {
+        "id": 11,
+        "name":" TOTAL VEG DISH",
+        "price": 2.5,
+        "image": "assets/5.PNG"
+    },
+    {
+        "id": 12,
+        "name":" HEAVY MEAL",
+        "price": 3,
+        "image": "assets/1.PNG"
+    },
+    {
+        "id": 13,
+        "name":" SWEET CHICKEN",
+        "price": 3,
+        "image": "assets/2.PNG"
+    },
+    {
+        "id": 14,
+        "name":" SALAD",
+        "price": 2,
+        "image": "assets/3.PNG"
+    },
+    {
+        "id": 15,
+        "name":" HONEY SOUP",
+        "price": 5,
+        "image": "assets/4.PNG"
+    },
+    {
+        "id": 16,
+        "name":" TOTAL VEG DISH",
+        "price": 2.5,
+        "image": "assets/5.PNG"
+    }
+]
